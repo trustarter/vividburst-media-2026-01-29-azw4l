@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VividBurst Media Blog - Expert insights on web design, SEO optimization, AI services, and digital marketing strategies for local businesses.">
+    <meta name="keywords" content="blog, web design, SEO, AEO, AI services, local business, digital marketing, local SEO">
+    <meta name="author" content="VividBurst Media">
+    <title>Blog - VividBurst Media</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .material-symbols-rounded {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+        
+        .section-gradient {
+            background: linear-gradient(to bottom, #f8f8f8, #ffffff);
+        }
+        
+        .card-hover {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.2);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid #FF5A5F;
+            color: #FF5A5F;
+            transition: all 300ms ease-out;
+        }
+        
+        .btn-outline:hover {
+            background-color: #FF5A5F;
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(255, 90, 95, 0.3);
+        }
+        
+        .btn-primary {
+            background-color: #FF5A5F;
+            color: white;
+            transition: all 300ms ease-out;
+        }
+        
+        .btn-primary:hover {
+            background-color: #E54449;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(255, 90, 95, 0.4);
+        }
+        
+        .blog-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.15);
+        }
+        
+        .mobile-menu {
+            transition: all 300ms ease-out;
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-white text-[#1A1A1A]">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l" class="flex items-center gap-3 hover:opacity-80 transition-opacity duration-300">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                    <span class="material-symbols-rounded text-white text-2xl">burst_mode</span>
+                </div>
+                <h1 class="text-2xl font-bold text-[#1A1A1A]">VividBurst</h1>
+            </a>
+
+            <!-- Back Link -->
+            <a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l" class="text-[#1A1A1A] font-medium hover:text-[#FF5A5F] transition-colors duration-300">
+                ← Back
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section for Blog -->
+    <section class="hero-gradient py-20 md:py-28 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-white opacity-5 rounded-full -ml-40 -mb-40"></div>
+        
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="space-y-6 max-w-3xl">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
+                    Our Blog
+                </h1>
+                <p class="text-xl md:text-2xl font-light leading-relaxed opacity-95">
+                    Expert insights and strategies to help your business thrive in the digital landscape
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Introduction Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-6">
+                    Welcome to VividBurst Media's Blog
+                </h2>
+                <p class="text-lg text-gray-700 font-light leading-relaxed mb-4">
+                    Stay informed with our comprehensive guides, industry insights, and actionable strategies designed to elevate your digital presence. Our blog covers everything from local SEO optimization and web design best practices to cutting-edge AI services and digital marketing trends.
+                </p>
+                <p class="text-lg text-gray-700 font-light leading-relaxed">
+                    Whether you're a small business owner looking to improve your online visibility or a digital professional seeking the latest industry knowledge, our blog provides valuable, research-backed content to help you succeed in today's competitive digital marketplace.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post Section -->
+    <section class="py-16 md:py-20 section-gradient">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1A1A1A]">
+                    Latest Post
+                </h2>
+            </div>
+
+            <div class="blog-card bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+                <div class="p-8 md:p-12">
+                    <div class="mb-4 flex items-center gap-4">
+                        <span class="inline-block px-4 py-2 bg-[#FFD166] text-[#1A1A1A] rounded-full text-sm font-semibold">Featured</span>
+                        <span class="text-gray-600 font-light text-sm">January 29, 2026</span>
+                    </div>
+                    
+                    <h3 class="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6 leading-tight">
+                        VividBurst
+                    </h3>
+                    
+                    <div class="prose prose-lg max-w-none mb-8">
+                        <p class="text-gray-700 font-light leading-relaxed mb-4">
+                            <strong>Blog Summary</strong>
+                        </p>
+                        <p class="text-gray-700 font-light leading-relaxed mb-4">
+                            Dominating local search results is essential for modern businesses, with 76% of mobile searchers visiting within 24 hours. This comprehensive 2025 guide covers the three pillars of local SEO: relevance, authority, and proximity. Key strategies include optimizing your Google Business Profile, maintaining NAP consistency across citations, conducting local keyword research, and building local backlinks. Mobile optimization is critical since 70% of local searches occur on mobile devices. Content marketing, customer reviews, and schema markup further boost visibility. The guide emphasizes monitoring metrics through Google Analytics and Search Console while avoiding common mistakes like inconsistent information. Success requires ongoing effort and adaptation to evolving algorithms and customer behavior.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l/blog/vividburst.html" class="btn-primary rounded-lg px-8 py-4 font-bold text-lg text-center hover:shadow-2xl inline-block">
+                            Read Full Article
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1A1A1A]">
+                    More Articles Coming Soon
+                </h2>
+                <p class="text-lg text-gray-600 font-light mt-4">
+                    We're continuously creating valuable content to help your business grow. Check back regularly for new insights and strategies.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder Blog Cards -->
+                <div class="blog-card bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10 opacity-60">
+                    <div class="mb-4">
+                        <span class="text-gray-400 font-light text-sm">Coming Soon</span>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-400 mb-4">
+                        New Article
+                    </h3>
+                    <p class="text-gray-400 font-light leading-relaxed mb-6">
+                        Stay tuned for more expert insights and actionable strategies to help your business succeed online.
+                    </p>
+                </div>
+
+                <div class="blog-card bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10 opacity-60">
+                    <div class="mb-4">
+                        <span class="text-gray-400 font-light text-sm">Coming Soon</span>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-400 mb-4">
+                        New Article
+                    </h3>
+                    <p class="text-gray-400 font-light leading-relaxed mb-6">
+                        Stay tuned for more expert insights and actionable strategies to help your business succeed online.
+                    </p>
+                </div>
+
+                <div class="blog-card bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10 opacity-60">
+                    <div class="mb-4">
+                        <span class="text-gray-400 font-light text-sm">Coming Soon</span>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-400 mb-4">
+                        New Article
+                    </h3>
+                    <p class="text-gray-400 font-light leading-relaxed mb-6">
+                        Stay tuned for more expert insights and actionable strategies to help your business succeed online.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-32 relative overflow-hidden" style="background-image: linear-gradient(rgba(26, 26, 26, 0.75), rgba(26, 26, 26, 0.75)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-size: cover; background-position: center;">
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="text-center space-y-8">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                    Ready to Transform Your Online Presence?
+                </h2>
+                <p class="text-xl md:text-2xl text-white font-light max-w-3xl mx-auto">
+                    Join hundreds of successful local businesses that have partnered with VividBurst Media to achieve their digital goals.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6 justify-center pt-4">
+                    <a href="https://vividburst.com" class="btn-primary rounded-lg px-8 py-4 font-bold text-lg text-center hover:shadow-2xl">
+                        Start Your Journey Today
+                    </a>
+                    <a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l" class="btn-outline rounded-lg px-8 py-4 font-bold text-lg text-center border-white text-white hover:bg-white hover:text-[#1A1A1A]">
+                        Back to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#1A1A1A] text-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Brand -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-rounded text-white text-2xl">burst_mode</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">VividBurst</h3>
+                    </div>
+                    <p class="text-gray-400 font-light leading-relaxed">
+                        Empowering local businesses with cutting-edge digital solutions and innovative online strategies.
+                    </p>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-white">Services</h4>
+                    <ul class="space-y-4">
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#features" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">Web Design</a></li>
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#features" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">SEO & AEO</a></li>
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#features" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">AI Services</a></li>
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#benefits" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">Digital Strategy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-white">Company</h4>
+                    <ul class="space-y-4">
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#testimonials" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">Success Stories</a></li>
+                        <li><a href="https://trustarter.github.io/vividburst-media-2026-01-29-azw4l#faq" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">FAQ</a></li>
+                        <li><a href="https://vividburst.com" class="text-gray-400 hover:text-[#FFD166] transition-colors font-light">Visit Website</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-white">Get In Touch</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-rounded text-[#FFD166] text-xl flex-shrink-0 mt-1">mail</span>
+                            <div>
+                                <p class="text-sm text-gray-400 font-light">Email</p>
+                                <a href="mailto:chris@vividburst.com" class="text-white hover:text-[#FFD166] transition-colors font-medium">chris@vividburst.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-rounded text-[#FFD166] text-xl flex-shrink-0 mt-1">language</span>
+                            <div>
+                                <p class="text-sm text-gray-400 font-light">Website</p>
+                                <a href="https://vividburst.com" class="text-white hover:text-[#FFD166] transition-colors font-medium">vividburst.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="border-t border-gray-700 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <p class="text-gray-400 font-light text-center md:text-left">
+                        &copy; 2025 VividBurst Media. All rights reserved.
+                    </p>
+                    <div class="flex items-center gap-6">
+                        <a href="#" class="text-gray-400 hover:text-[#FFD166] transition-colors" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#FFD166] transition-colors" aria-label="Twitter">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#FFD166] transition-colors" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-[#FFD166] transition-colors" aria-label="Instagram">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
